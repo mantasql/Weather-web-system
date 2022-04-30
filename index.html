@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0abdf3af44.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <title>Weather system</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class = "search-bar" placeholder="Search">
+            <button><i class="fa fa-search fa-lg"></i></button>
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in Vilnius</h2>
+            <h1 class="temperature">20°C</h1>
+            <div class="flex">
+                <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="weather icon" class="weather-icon">
+                <div class="weather-description">Sunny</div>
+            </div>
+            <div class="humidity">Humidity: 50%</div>
+            <div class="wind">Wind speed: 5 km/h</div>
+        </div>
+    </div>
+</body>
+</html>
